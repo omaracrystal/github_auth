@@ -7,6 +7,9 @@ $yo galvinize-express
 $npm install
 $npm install passport-github --save
 npm install passport --save
+npm install mongoose --save
+npm install express-session
+
 
 create auth folder under server folder
 create github.js file
