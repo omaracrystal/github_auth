@@ -55,8 +55,8 @@ function(accessToken, refreshToken, profile, done) {
 2. heroku logs (will show you the errors if it doesn't deploy)
 3. heroku config (check config to see if that can be found or env file etc)
 4. if cannot find file... set up the client id and client secret in terminal ``heroku config set: GITHUB_CLIENT_ID=1c93b5ae17f76e22d85b ``
-5. heroku addons:create mongolab then update user.js under models to match the MONGOLAB_URI instead of just MONGO_URI
--if still issues you prob need to add mongolab
+5. -if still issues you prob need to add mongolab>>
+ heroku addons:create mongolab then update user.js under models to match the MONGOLAB_URI instead of just MONGO_URI
 6. git push && git push heroky master
 
 
